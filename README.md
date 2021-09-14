@@ -21,7 +21,7 @@ Tonguemeleon is a mobile casual game about a chameleon trying to eat some bugs.
 ### Clone Tonguemeleon Repository
 $ git clone <https://github.com/diegoptenorio/tonguemeleon.git>
 
-### Open GDevelop online editor
+### Install GDevelop or Run Web Version
 <https://editor.gdevelop-app.com/>
 
 ### Run File
@@ -94,7 +94,6 @@ Crowd Cheer by FoolBoyMedia
 <https://freesound.org/people/LittleRobotSoundFactory/sounds/270402/>
 
 # Autor
----
 
 <a href="https://www.linkedin.com/in/diegotenorio">
  <img style="border-radius: 50%;" src="./assets/readme/diegotenorio.jpg" width="100px;" alt=""/>
