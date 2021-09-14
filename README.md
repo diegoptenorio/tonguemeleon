@@ -4,9 +4,9 @@
  <a href="#about">About</a> •
  <a href="#setup">Setup</a> • 
  <a href="#features">Features</a> • 
- <a href="#tech">Tech</a> • 
- <a href="#autor">Autor</a>
+ <a href="#tech">Tech</a> •
  <a href="#contribution">Contribution</a> • 
+ <a href="#autor">Autor</a> 
 </p>
 
 # About
@@ -50,19 +50,6 @@ Programning Languages and Tools:
 - [GDevelop](https://gdevelop-app.com)
 - [FreeSound](https://freesound.org)
 
-# Autor
----
-
-<a href="https://www.linkedin.com/in/diegotenorio">
- <img style="border-radius: 50%;" src="./assets/readme/diegotenorio.jpg" width="100px;" alt=""/>
- <br />
- <sub><b>Diego Tenório</b></sub></a>
-
-
-Development and Design
-
-[![Linkedin Badge](https://img.shields.io/badge/-Diego-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/diegotenorio)](https://www.linkedin.com/in/diegotenorio)
-
 # Contribution
 
 All sounds are provided by freesound.org plataform
@@ -105,3 +92,16 @@ Crowd Cheer by FoolBoyMedia
 
 ### Jingle_Win_00.wav by LittleRobotSoundFactory
 <https://freesound.org/people/LittleRobotSoundFactory/sounds/270402/>
+
+# Autor
+---
+
+<a href="https://www.linkedin.com/in/diegotenorio">
+ <img style="border-radius: 50%;" src="./assets/readme/diegotenorio.jpg" width="100px;" alt=""/>
+ <br />
+ <sub><b>Diego Tenório</b></sub></a>
+
+
+Development and Design
+
+[![Linkedin Badge](https://img.shields.io/badge/-Diego-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/diegotenorio)](https://www.linkedin.com/in/diegotenorio)
