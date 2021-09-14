@@ -2,31 +2,32 @@
 
 <p align="center">
  <a href="#about">About</a> •
+ <a href="#setup">Setup</a> • 
  <a href="#features">Features</a> • 
- <a href="#tecnologias">Tecnologias</a> • 
- <a href="#contribuicao">Contribuição</a> • 
- <a href="#license">License</a> • 
+ <a href="#tech">Tech</a> • 
  <a href="#autor">Autor</a>
+ <a href="#contribution">Contribution</a> • 
 </p>
 
-### About
+# About
 Tonguemeleon is a mobile casual game about a chameleon trying to eat some bugs.
 
-<h4 align="center"> 
+<h4> 
 	🚧  Tonguemeleon 🚀 Development in progress...  🚧
 </h4>
 
-### Setup
+# Setup
 
-# Clone Tonguemeleon Repository
+### Clone Tonguemeleon Repository
 $ git clone <https://github.com/diegoptenorio/tonguemeleon.git>
 
-# Open GDevelop online editor
+### Open GDevelop online editor
 <https://editor.gdevelop-app.com/>
 
-# Run game.json 
+### Run File
+game.json 
 
-### Features
+# Features
 
 - [x] Digital Storm Intro
 - [x] Main Menu
@@ -40,7 +41,7 @@ $ git clone <https://github.com/diegoptenorio/tonguemeleon.git>
   <img alt="Tonguemeleon" title="#Tonguemeleon" src="./assets/readme/tonguemeleon.png" />
 </h1>
 
-### 🛠 Tech
+# Tech
 
 Programning Languages and Tools:
 
@@ -49,7 +50,7 @@ Programning Languages and Tools:
 - [GDevelop](https://gdevelop-app.com)
 - [FreeSound](https://freesound.org)
 
-### Autor
+# Autor
 ---
 
 <a href="https://www.linkedin.com/in/diegotenorio">
@@ -58,49 +59,49 @@ Programning Languages and Tools:
  <sub><b>Diego Tenório</b></sub></a>
 
 
-Development and Design: Diego Tenório
+Development and Design
 
-[![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/diegotenorio)](https://www.linkedin.com/in/diegotenorio)
+[![Linkedin Badge](https://img.shields.io/badge/-Diego-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/diegotenorio)](https://www.linkedin.com/in/diegotenorio)
 
-### Sound Effects Credits
+# Contribution
 
 All sounds are provided by freesound.org plataform
 
-# Background sound:
+### Background sound:
 Countryside with bees by bassboybg
 <https://freesound.org/people/bassboybg/sounds/242151/>
 
-# Tongue Sound:
+### Tongue Sound:
 TongueClick1.wav by acclivity
 <https://freesound.org/people/acclivity/sounds/34208/>
 
-# UI Sound:
+### UI Sound:
 pop.wav by anagar
 <https://freesound.org/people/anagar/sounds/267952/>
 
-# Splash Screen Sound
+### Splash Screen Sound
 Freezing Logo.wav by .Gomi
 <https://freesound.org/people/.Gomi/sounds/553763/>
 
-# Main Menu Music
+### Main Menu Music
 Energetic Bigbeat Drum Loop by AlexProst
 <https://freesound.org/people/AlexProst/sounds/382251/>
 
-# Countdown
+### Countdown
 Drumsticks [Dave Weckl Evolution] open wide №3..wav by Theriavirra
 <https://freesound.org/people/Theriavirra/sounds/270092/>
 
-# GO!
+### GO!
 ready set go by Alivvie
 <https://freesound.org/people/Alivvie/sounds/451271/>
 
-# Game Over Sound
+### Game Over Sound
 Game win.mp3 by elijahdanie
 <https://freesound.org/people/elijahdanie/sounds/487436/>
 
-# New Highest Score
+### New Highest Score
 Crowd Cheer by FoolBoyMedia
 <https://freesound.org/people/FoolBoyMedia/sounds/397434/>
 
-# Jingle_Win_00.wav by LittleRobotSoundFactory
+### Jingle_Win_00.wav by LittleRobotSoundFactory
 <https://freesound.org/people/LittleRobotSoundFactory/sounds/270402/>
