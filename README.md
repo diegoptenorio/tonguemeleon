@@ -103,7 +103,4 @@ Crowd Cheer by FoolBoyMedia
 
 Development and Design
 
-<a href="www.diegotenorio.com.br" target="_blank">
-<img alt="Website" src="https://img.shields.io/website?up_message=Portfolio&url=http%3A%2F%2Fwww.diegotenorio.com.br%2F">
-</a>
-[![Linkedin Badge](https://img.shields.io/badge/-Diego-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/diegotenorio)](https://www.linkedin.com/in/diegotenorio)
+[![Website Badge](https://img.shields.io/website?up_message=Portfolio&url=http%3A%2F%2Fwww.diegotenorio.com.br%2F)](http://www.diegotenorio.com.br) [![Linkedin Badge](https://img.shields.io/badge/-Diego-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/diegotenorio)](https://www.linkedin.com/in/diegotenorio)
