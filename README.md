@@ -29,7 +29,7 @@ game.json
 
 # Features
 
-- [x] Digital Storm Intro
+- [x] Splash Screen
 - [x] Main Menu
 - [x] Gameplay
 - [x] Exit
@@ -51,6 +51,10 @@ Programning Languages and Tools:
 - [FreeSound](https://freesound.org)
 
 # Contribution
+
+### Fonts
+Nougat-ExtraBlack.ttf
+<https://www.dafont.com/pt/nougat.font>
 
 All sounds are provided by freesound.org plataform
 
