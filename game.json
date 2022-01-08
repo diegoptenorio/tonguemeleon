@@ -42,6 +42,7 @@
       "showGDevelopSplash": true,
       "showProgressBar": true
     },
+    "authorIds": [],
     "extensionProperties": [
       {
         "extension": "AdMob",
@@ -92,15 +93,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/img/e-12-4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Ellipse 12 (4).png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/img/e-14-2.png",
         "kind": "image",
         "metadata": "",
@@ -110,28 +102,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/img/e-13-4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Ellipse 13 (4).png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/img/e-12-4-2.png",
         "kind": "image",
         "metadata": "",
         "name": "Ellipse 12 (4)2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/btn-target.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Btn Lingua (2).png",
         "smoothed": true,
         "userAdded": true
       },
@@ -278,42 +252,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
-        "file": "assets/img/no-1-4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject-1-4.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/button.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Group 70 (3).png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/button.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Group 70 (3)2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/button.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Group 70 (3)3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
         "file": "assets/sound/267952_anagar_pop (mp3cut.net).mp3",
         "kind": "audio",
         "metadata": "",
@@ -402,6 +340,159 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/btn-play.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\btn-play.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/btn-credits.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\btn-credits.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/btn-exit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\btn-exit.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/logo-tonguemeleon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\logo-tonguemeleon.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/credits.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\credits.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/btn-close.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\btn-close.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/btn-play-again.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\btn-play-again.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/score.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\score.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/btn-menu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\btn-menu.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/highest-score.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\highest-score.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/btn-tongue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\btn-tongue.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/joystick-bg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\joystick-bg.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/joystick.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\joystick.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/life-bar-green.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\life-bar-green.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/life-bar-yellow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\life-bar-yellow.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/life-bar-red.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\life-bar-red.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/life-bar-bg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\life-bar-bg.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -460,11 +551,11 @@
       "behaviors": [],
       "string": "ScoreValue",
       "font": "Nougat-ExtraBlack.ttf",
-      "characterSize": 120,
+      "characterSize": 100,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 139,
+        "g": 166,
+        "r": 19
       }
     }
   ],
@@ -718,17 +809,16 @@
       "v": 13,
       "uiSettings": {
         "grid": false,
-        "gridB": 255,
-        "gridG": 180,
+        "gridType": "rectangular",
+        "gridWidth": 32,
         "gridHeight": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
-        "gridR": 158,
-        "gridType": "rectangular",
-        "gridWidth": 32,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
         "snap": true,
-        "windowMask": false,
-        "zoomFactor": 0.2
+        "zoomFactor": 0.2,
+        "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
@@ -753,12 +843,12 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Group 70 (3).png",
+                      "image": "assets\\img\\btn-play.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 365,
-                        "y": 91
+                        "x": 401,
+                        "y": 271
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -775,7 +865,7 @@
           ]
         },
         {
-          "name": "btnAbout",
+          "name": "btnCredits",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -793,12 +883,12 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Group 70 (3)2.png",
+                      "image": "assets\\img\\btn-credits.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 365,
-                        "y": 91
+                        "x": 255,
+                        "y": 166
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -815,7 +905,7 @@
           ]
         },
         {
-          "name": "btnQuit",
+          "name": "btnExit",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -833,12 +923,12 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Group 70 (3)2.png",
+                      "image": "assets\\img\\btn-exit.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 365,
-                        "y": 91
+                        "x": 245,
+                        "y": 177
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -913,6 +1003,46 @@
             "g": 255,
             "r": 255
           }
+        },
+        {
+          "name": "LogoTonguemeleon",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\logo-tonguemeleon.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 312,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -940,9 +1070,23 @@
               },
               "parameters": [
                 "",
+                "LogoTonguemeleon",
+                "SceneWindowWidth()/2",
+                "100",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
                 "btnPlay",
                 "SceneWindowWidth()/2",
-                "SceneWindowHeight()/2-260",
+                "SceneWindowHeight()-510",
                 ""
               ],
               "subInstructions": []
@@ -954,9 +1098,9 @@
               },
               "parameters": [
                 "",
-                "btnQuit",
+                "btnExit",
                 "SceneWindowWidth()/2",
-                "SceneWindowHeight()/2+260",
+                "SceneWindowHeight()-100",
                 ""
               ],
               "subInstructions": []
@@ -968,88 +1112,10 @@
               },
               "parameters": [
                 "",
-                "btnAbout",
+                "btnCredits",
                 "SceneWindowWidth()/2",
-                "SceneWindowHeight()/2",
+                "SceneWindowHeight()-310",
                 ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "btnPlayLabel",
-                "btnPlay.X()",
-                "btnPlay.Y()",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "btnQuitLabel",
-                "btnQuit.X()",
-                "btnQuit.Y()",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "btnAboutLabel",
-                "btnAbout.X()",
-                "btnAbout.Y()",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "btnPlayLabel",
-                "=",
-                "2"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "btnQuitLabel",
-                "=",
-                "2"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "btnAboutLabel",
-                "=",
-                "2"
               ],
               "subInstructions": []
             },
@@ -1098,9 +1164,9 @@
               "parameters": [
                 "btnQuitLabel",
                 "=",
-                "btnQuit.X()-(btnQuitLabel.Width()/2)",
+                "btnExit.X() - (btnQuitLabel.Width() / 2)",
                 "=",
-                "btnQuit.Y()-(btnQuitLabel.Height()/2)"
+                "btnExit.Y() - (btnQuitLabel.Height() / 2)"
               ],
               "subInstructions": []
             },
@@ -1112,9 +1178,9 @@
               "parameters": [
                 "btnAboutLabel",
                 "=",
-                "btnAbout.X()-(btnAboutLabel.Width()/2)",
+                "btnCredits.X() - (btnAboutLabel.Width() / 2)",
                 "=",
-                "btnAbout.Y()-(btnAboutLabel.Height()/2)"
+                "btnCredits.Y() - (btnAboutLabel.Height() / 2)"
               ],
               "subInstructions": []
             }
@@ -1203,7 +1269,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "btnAbout",
+                "btnCredits",
                 "",
                 "",
                 ""
@@ -1241,7 +1307,7 @@
               },
               "parameters": [
                 "",
-                "\"About\"",
+                "\"Credits\"",
                 ""
               ],
               "subInstructions": []
@@ -1257,11 +1323,10 @@
             {
               "type": {
                 "inverted": false,
-                "value": "SourisBouton"
+                "value": "PopStartedTouch"
               },
               "parameters": [
-                "",
-                "Left"
+                ""
               ],
               "subInstructions": []
             },
@@ -1271,7 +1336,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "btnQuit",
+                "btnExit",
                 "",
                 "",
                 ""
@@ -1335,72 +1400,114 @@
       "behaviorsSharedData": []
     },
     {
-      "b": 209,
+      "b": 62,
       "disableInputWhenNotFocused": true,
-      "mangledName": "About",
-      "name": "About",
+      "mangledName": "Credits",
+      "name": "Credits",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
-      "r": 209,
+      "r": 1,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 209,
+      "v": 13,
       "uiSettings": {
         "grid": false,
-        "gridB": 255,
-        "gridG": 180,
+        "gridType": "rectangular",
+        "gridWidth": 32,
         "gridHeight": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
-        "gridR": 158,
-        "gridType": "rectangular",
-        "gridWidth": 32,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
         "snap": true,
-        "windowMask": false,
-        "zoomFactor": 0.20000000000000015
+        "zoomFactor": 0.20000000000000015,
+        "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Credits",
-          "persistentUuid": "478f80bf-7519-4137-ad07-83bbdfe1c923",
-          "width": 0,
-          "x": 984,
-          "y": 315,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
+      "instances": [],
       "objects": [
         {
-          "bold": false,
-          "italic": false,
           "name": "Credits",
-          "smoothed": true,
           "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
+          "type": "Sprite",
+          "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Published by:\nDigital Storm\n\nDevelopment and Design\nDiego Tenorio\n\nSound Effects...",
-          "font": "Nougat-ExtraBlack.ttf",
-          "characterSize": 36,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\credits.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 1285,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "btnClose",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\btn-close.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 273,
+                        "y": 164
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -1412,11 +1519,95 @@
             {
               "type": {
                 "inverted": false,
-                "value": "PopStartedTouch"
+                "value": "DepartScene"
               },
               "parameters": [
                 ""
               ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Credits",
+                "SceneWindowWidth()/2",
+                "120",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "btnClose",
+                "SceneWindowWidth()/2",
+                "SceneWindowHeight()-120",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "382251_alexprost_energetic-bigbeat-drum-loop (mp3cut.net).mp3",
+                "yes",
+                "75",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "btnClose",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
               "subInstructions": []
             }
           ],
@@ -1432,8 +1623,30 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "267952_anagar_pop (mp3cut.net).mp3",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
             }
           ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
           "events": []
         }
       ],
@@ -1478,17 +1691,16 @@
       "v": 187,
       "uiSettings": {
         "grid": false,
-        "gridB": 255,
-        "gridG": 180,
+        "gridType": "rectangular",
+        "gridWidth": 32,
         "gridHeight": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
-        "gridR": 158,
-        "gridType": "rectangular",
-        "gridWidth": 32,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
         "snap": true,
-        "windowMask": false,
-        "zoomFactor": 0.2
+        "zoomFactor": 0.2,
+        "windowMask": false
       },
       "objectsGroups": [],
       "variables": [
@@ -2022,7 +2234,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Ellipse 12 (4).png",
+                      "image": "assets\\img\\joystick-bg.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2073,12 +2285,12 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Ellipse 13 (4).png",
+                      "image": "assets\\img\\joystick.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
                         "x": 136,
-                        "y": 135
+                        "y": 136
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -2193,7 +2405,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Btn Lingua (2).png",
+                      "image": "assets\\img\\btn-tongue.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2831,7 +3043,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewObject",
+              "name": "green",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -2840,18 +3052,76 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject-1-4.png",
+                      "image": "assets\\img\\life-bar-green.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 32,
-                        "y": 64
+                        "x": 12,
+                        "y": 24
                       },
                       "centerPoint": {
-                        "automatic": false,
+                        "automatic": true,
                         "name": "centre",
-                        "x": 32,
-                        "y": 64
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "yellow",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\life-bar-yellow.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 12,
+                        "y": 24
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "red",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\life-bar-red.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 12,
+                        "y": 24
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": []
                     }
@@ -2966,6 +3236,66 @@
           "string": "3",
           "font": "Nougat-ExtraBlack.ttf",
           "characterSize": 780,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "name": "LifeBarBg",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\life-bar-bg.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 12,
+                        "y": 24
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "ScoreLabel",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Score",
+          "font": "Nougat-ExtraBlack.ttf",
+          "characterSize": 70,
           "color": {
             "b": 255,
             "g": 255,
@@ -3090,17 +3420,16 @@
       "v": 13,
       "uiSettings": {
         "grid": false,
-        "gridB": 255,
-        "gridG": 180,
+        "gridType": "rectangular",
+        "gridWidth": 32,
         "gridHeight": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
-        "gridR": 158,
-        "gridType": "rectangular",
-        "gridWidth": 32,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
         "snap": true,
-        "windowMask": false,
-        "zoomFactor": 0.2
+        "zoomFactor": 0.2,
+        "windowMask": false
       },
       "objectsGroups": [],
       "variables": [
@@ -3139,38 +3468,6 @@
           "x": 1591,
           "y": 486,
           "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "PlayAgain",
-          "persistentUuid": "6b270bb2-dccf-40a1-8784-81b08889a407",
-          "width": 0,
-          "x": 1547,
-          "y": 695,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "ScoreLabel",
-          "persistentUuid": "c8d36cd1-04ad-47a6-b208-c0a453c034c2",
-          "width": 0,
-          "x": 1565,
-          "y": 890,
-          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3228,12 +3525,12 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Group 70 (3)3.png",
+                      "image": "assets\\img\\btn-play-again.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
                         "x": 365,
-                        "y": 91
+                        "y": 164
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -3252,46 +3549,6 @@
         {
           "bold": false,
           "italic": false,
-          "name": "PlayAgain",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "Play Again",
-          "font": "Nougat-ExtraBlack.ttf",
-          "characterSize": 90,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "ScoreLabel",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "Score",
-          "font": "Nougat-ExtraBlack.ttf",
-          "characterSize": 36,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
-          "bold": false,
-          "italic": false,
           "name": "HighScore",
           "smoothed": true,
           "tags": "",
@@ -3302,12 +3559,92 @@
           "behaviors": [],
           "string": "highscore",
           "font": "Nougat-ExtraBlack.ttf",
-          "characterSize": 81,
+          "characterSize": 100,
           "color": {
-            "b": 84,
-            "g": 233,
-            "r": 255
+            "b": 139,
+            "g": 166,
+            "r": 19
           }
+        },
+        {
+          "name": "scoreBg",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\score.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 388,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "btnMenu",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\btn-menu.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 169,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -3354,12 +3691,40 @@
             {
               "type": {
                 "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "scoreBg",
+                "SceneWindowWidth()/2",
+                "120",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "btnMenu",
+                "SceneWindowWidth()-100",
+                "100",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "TextObject::String"
               },
               "parameters": [
                 "Score",
                 "=",
-                "\"Score: \"+GlobalVariableString(Score)"
+                "GlobalVariableString(Score)"
               ],
               "subInstructions": []
             },
@@ -3383,7 +3748,7 @@
               "parameters": [
                 "Score",
                 "=",
-                "SceneWindowHeight()/2-400"
+                "455"
               ],
               "subInstructions": []
             },
@@ -3407,55 +3772,7 @@
               "parameters": [
                 "PlayAgainButton",
                 "=",
-                "SceneWindowHeight()/2+100"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "MettreY"
-              },
-              "parameters": [
-                "PlayAgain",
-                "=",
-                "PlayAgainButton.Y()-PlayAgain.Height()/2-5"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "MettreX"
-              },
-              "parameters": [
-                "PlayAgain",
-                "=",
-                "PlayAgainButton.X()-PlayAgain.Width()/2-5"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "MettreX"
-              },
-              "parameters": [
-                "ScoreLabel",
-                "=",
-                "SceneWindowWidth()/2-ScoreLabel.Width()/2"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "MettreY"
-              },
-              "parameters": [
-                "ScoreLabel",
-                "=",
-                "SceneWindowHeight()/2-ScoreLabel.Height()/2-450"
+                "SceneWindowHeight()-120"
               ],
               "subInstructions": []
             },
@@ -3479,17 +3796,7 @@
               "parameters": [
                 "HighScore",
                 "=",
-                "SceneWindowHeight()/2-230"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "ScoreLabel"
+                "700"
               ],
               "subInstructions": []
             },
@@ -3511,6 +3818,18 @@
                 "value": "AdMob::ShowBanner"
               },
               "parameters": [],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "scoreBg",
+                "=",
+                "-100"
+              ],
               "subInstructions": []
             }
           ],
@@ -3633,7 +3952,7 @@
               "parameters": [
                 "HighScore",
                 "=",
-                "\"Best Score: \"+VariableString(highscore)"
+                "VariableString(highscore)"
               ],
               "subInstructions": []
             },
@@ -3698,36 +4017,58 @@
             {
               "type": {
                 "inverted": false,
-                "value": "MettreX"
+                "value": "Scene"
               },
               "parameters": [
-                "PlayAgain",
-                "=",
-                "PlayAgainButton.X()-PlayAgain.Width()/2+5"
+                "",
+                "\"Game\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "MettreY"
+                "value": "SourisSurObjet"
               },
               "parameters": [
-                "PlayAgain",
-                "=",
-                "PlayAgainButton.Y()-PlayAgain.Height()/2+5"
+                "btnMenu",
+                "",
+                "",
+                ""
               ],
               "subInstructions": []
-            },
+            }
+          ],
+          "actions": [
             {
               "type": {
                 "inverted": false,
-                "value": "TextObject::Opacity"
+                "value": "ModVarGlobal"
               },
               "parameters": [
-                "PlayAgain",
+                "Score",
                 "=",
-                "150"
+                "0"
               ],
               "subInstructions": []
             },
@@ -3738,7 +4079,7 @@
               },
               "parameters": [
                 "",
-                "\"Game\"",
+                "\"Main Menu\"",
                 ""
               ],
               "subInstructions": []
@@ -3774,36 +4115,189 @@
       "behaviorsSharedData": []
     },
     {
-      "b": 209,
+      "b": 62,
       "disableInputWhenNotFocused": true,
       "mangledName": "New_32Highest_32Score",
       "name": "New Highest Score",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
-      "r": 209,
+      "r": 1,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 209,
+      "v": 13,
       "uiSettings": {
         "grid": false,
-        "gridB": 255,
-        "gridG": 180,
+        "gridType": "rectangular",
+        "gridWidth": 32,
         "gridHeight": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
-        "gridR": 158,
-        "gridType": "rectangular",
-        "gridWidth": 32,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
         "snap": true,
-        "windowMask": false,
-        "zoomFactor": 0.10000000000000014
+        "zoomFactor": 0.10000000000000014,
+        "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
-      "objects": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Counters",
+          "persistentUuid": "48699d13-b758-4141-a11f-54dc431ba169",
+          "width": 0,
+          "x": 2274,
+          "y": 292,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Score",
+          "persistentUuid": "f208e1dc-55f3-4b17-93f1-692fbbed9412",
+          "width": 0,
+          "x": 2354,
+          "y": 462,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "btnMenu",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\btn-menu.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 169,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "btnPlayAgain",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\btn-play-again.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 365,
+                        "y": 164
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "HighestScoreBg",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\highest-score.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 565,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "events": [
         {
           "disabled": false,
@@ -3849,8 +4343,254 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "btnMenu",
+                "SceneWindowWidth()-100",
+                "100",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "btnPlayAgain",
+                "SceneWindowWidth()/2",
+                "SceneWindowHeight()-120",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "HighestScoreBg",
+                "SceneWindowWidth()/2",
+                "120",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Score",
+                "=",
+                "GlobalVariableString(Score)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Score",
+                "=",
+                "SceneWindowWidth()/2-Score.Width()/2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreY"
+              },
+              "parameters": [
+                "Score",
+                "=",
+                "755"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "Score",
+                "\"255;255;255\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "Score",
+                "=",
+                "100"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "Counters"
+              ],
+              "subInstructions": []
             }
           ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "btnMenu",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Score",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Main Menu\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "btnPlayAgain",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Score",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "Score",
+                "\"19;166;139\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Game\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
           "events": []
         }
       ],
@@ -6072,7 +6812,7 @@
                 "",
                 "ControllerCenter",
                 "330",
-                "SceneWindowHeight()-330",
+                "SceneWindowHeight()-350",
                 ""
               ],
               "subInstructions": []
@@ -6180,7 +6920,7 @@
                 "",
                 "ControllerShootTongue",
                 "SceneWindowWidth()-304",
-                "SceneWindowHeight()-304",
+                "SceneWindowHeight()-324",
                 ""
               ],
               "subInstructions": []
@@ -8233,12 +8973,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ChangeHeight"
+                "value": "ChangeWidth"
               },
               "parameters": [
                 "LifeBar",
                 "=",
-                "300"
+                "SceneWindowWidth()"
               ],
               "subInstructions": []
             },
@@ -8477,9 +9217,9 @@
               },
               "parameters": [
                 "",
-                "LifeBar",
-                "SceneWindowWidth()-LifeBar.Width()-300",
-                "SceneWindowHeight()/2",
+                "LifeBarBg",
+                "SceneWindowWidth()/2",
+                "SceneWindowHeight()-24",
                 ""
               ],
               "subInstructions": []
@@ -8487,12 +9227,26 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ChangeHeight"
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "LifeBar",
+                "SceneWindowWidth()/2",
+                "SceneWindowHeight()-24",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeWidth"
               },
               "parameters": [
                 "LifeBar",
                 "=",
-                "300"
+                "SceneWindowWidth()"
               ],
               "subInstructions": []
             },
@@ -8504,6 +9258,103 @@
               "parameters": [
                 "",
                 "451271_alivvie_ready-set-go (mp3cut.net).mp3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "ControllerShootTongue",
+                "=",
+                "100"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "TouchRadius",
+                "=",
+                "100"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "ControllerPosition",
+                "=",
+                "101"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "LifeBarBg",
+                "=",
+                "SceneWindowWidth()"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "LifeBar",
+                "=",
+                "100"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "Score",
+                "\"255;255;255\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "ScoreLabel",
+                "ControllerShootTongue.X()",
+                "80",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "ScoreLabel",
+                "=",
+                "100"
               ],
               "subInstructions": []
             }
@@ -8534,11 +9385,25 @@
                 "value": "MettreXY"
               },
               "parameters": [
+                "ScoreLabel",
+                "=",
+                "ControllerShootTongue.X()-ScoreLabel.Width()/2",
+                "=",
+                "80"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
                 "Score",
                 "=",
-                "SceneWindowWidth()-250",
+                "ControllerShootTongue.X()-Score.Width()/2",
                 "=",
-                "100"
+                "150"
               ],
               "subInstructions": []
             },
@@ -8605,12 +9470,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ChangeHeight"
+                "value": "ChangeWidth"
               },
               "parameters": [
                 "LifeBar",
                 "-",
-                "Variable(SubtractTimer)"
+                "Variable(SubtractTimer)*5"
               ],
               "subInstructions": []
             }
@@ -8625,7 +9490,7 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ScaleHeight"
+                "value": "ScaleWidth"
               },
               "parameters": [
                 "LifeBar",
@@ -9042,6 +9907,125 @@
               "subInstructions": []
             }
           ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ScaleWidth"
+              },
+              "parameters": [
+                "LifeBar",
+                ">",
+                "60"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "LifeBar",
+                "\"green\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ScaleWidth"
+              },
+              "parameters": [
+                "LifeBar",
+                "<=",
+                "60"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ScaleWidth"
+              },
+              "parameters": [
+                "LifeBar",
+                ">=",
+                "30"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "LifeBar",
+                "\"yellow\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ScaleWidth"
+              },
+              "parameters": [
+                "LifeBar",
+                "<",
+                "30"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "LifeBar",
+                "\"red\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
           "events": []
         }
       ]
