@@ -120,6 +120,24 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "assets/img/e-14-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "e-14-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/e-12-4-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "e-12-4-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
         "file": "assets/img/bug-green-0.png",
         "kind": "image",
         "metadata": "",
@@ -843,6 +861,15 @@
         "metadata": "",
         "name": "splash-screen.png",
         "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/tongue-collision-area.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\tongue-collision-area.png",
+        "smoothed": true,
         "userAdded": true
       }
     ],
@@ -2042,7 +2069,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.8500000000000003,
+        "zoomFactor": 0.8750000000000003,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2761,7 +2788,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Ellipse 14 (2).png",
+                      "image": "e-14-2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2801,7 +2828,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Ellipse 12 (4)2.png",
+                      "image": "e-12-4-2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
