@@ -54,20 +54,20 @@
       "ios-icon-87": "ios-icon-87.png"
     },
     "loadingScreen": {
-      "backgroundColor": 0,
-      "backgroundFadeInDuration": 0.2,
-      "backgroundImageResourceName": "",
+      "backgroundColor": 16053492,
+      "backgroundFadeInDuration": 0.3,
+      "backgroundImageResourceName": "splash-screen.png",
       "gdevelopLogoStyle": "light",
       "logoAndProgressFadeInDuration": 0.2,
       "logoAndProgressLogoFadeInDelay": 0.2,
-      "minDuration": 1.5,
+      "minDuration": 2.2,
       "progressBarColor": 16777215,
       "progressBarHeight": 20,
       "progressBarMaxWidth": 200,
       "progressBarMinWidth": 40,
       "progressBarWidthPercent": 30,
-      "showGDevelopSplash": true,
-      "showProgressBar": true
+      "showGDevelopSplash": false,
+      "showProgressBar": false
     },
     "authorIds": [],
     "extensionProperties": [
@@ -96,7 +96,7 @@
         "file": "assets/img/no-1-3.png",
         "kind": "image",
         "metadata": "",
-        "name": "NewObject-1-3.png",
+        "name": "no-1-3.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -105,7 +105,7 @@
         "file": "assets/img/mt-1.png",
         "kind": "image",
         "metadata": "",
-        "name": "MarkerTongue-1.png",
+        "name": "mt-1.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -114,25 +114,7 @@
         "file": "assets/img/chameleon-green.png",
         "kind": "image",
         "metadata": "",
-        "name": "Camaleão (1).png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/e-14-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Ellipse 14 (2).png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/e-12-4-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Ellipse 12 (4)2.png",
+        "name": "chameleon-green.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -141,7 +123,7 @@
         "file": "assets/img/bug-green-0.png",
         "kind": "image",
         "metadata": "",
-        "name": "Group 59.png",
+        "name": "bug-green-0.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -150,25 +132,16 @@
         "file": "assets/img/bug-green-1.png",
         "kind": "image",
         "metadata": "",
-        "name": "Group 59 (1).png",
+        "name": "bug-green-1.png",
         "smoothed": true,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/no-1-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject-1-1.png",
-        "smoothed": true,
-        "userAdded": false
       },
       {
         "alwaysLoaded": false,
         "file": "assets/img/bug-red-0.png",
         "kind": "image",
         "metadata": "",
-        "name": "Group 56.png",
+        "name": "bug-red-0.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -177,7 +150,7 @@
         "file": "assets/img/bug-red-1.png",
         "kind": "image",
         "metadata": "",
-        "name": "Group 63.png",
+        "name": "bug-red-1.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -186,8 +159,8 @@
         "file": "assets/img/chameleon-red.png",
         "kind": "image",
         "metadata": "",
-        "name": "Vermelho.png",
-        "smoothed": true,
+        "name": "chameleon-red.png",
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -195,7 +168,7 @@
         "file": "assets/img/bug-blue-0.png",
         "kind": "image",
         "metadata": "",
-        "name": "Group 57.png",
+        "name": "bug-blue-0.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -204,7 +177,7 @@
         "file": "assets/img/bug-blue-1.png",
         "kind": "image",
         "metadata": "",
-        "name": "Group 64.png",
+        "name": "bug-blue-1.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -213,7 +186,7 @@
         "file": "assets/img/chameleon-blue.png",
         "kind": "image",
         "metadata": "",
-        "name": "Azul.png",
+        "name": "chameleon-blue.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -222,7 +195,7 @@
         "file": "assets/img/tongue.png",
         "kind": "image",
         "metadata": "",
-        "name": "Língua (3).png",
+        "name": "tongue.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -231,7 +204,7 @@
         "file": "assets/img/counter-1.png",
         "kind": "image",
         "metadata": "",
-        "name": "Counters-1.png",
+        "name": "counter-1.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -247,7 +220,7 @@
         "file": "assets/img/leaf.png",
         "kind": "image",
         "metadata": "",
-        "name": "Folha (1).png",
+        "name": "leaf.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -265,15 +238,6 @@
         "kind": "audio",
         "metadata": "",
         "name": "242151_bassboybg_countryside-with-bees (mp3cut.net).mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/sound/553763_gomi_freezing-logo (mp3cut (mp3cut.net).mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "553763_gomi_freezing-logo (mp3cut (mp3cut.net).mp3",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "userAdded": true
@@ -337,7 +301,7 @@
         "file": "assets/img/btn-play.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\img\\btn-play.png",
+        "name": "btn-play.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -346,7 +310,7 @@
         "file": "assets/img/btn-credits.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\img\\btn-credits.png",
+        "name": "btn-credits.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -355,7 +319,7 @@
         "file": "assets/img/btn-exit.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\img\\btn-exit.png",
+        "name": "btn-exit.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -364,7 +328,7 @@
         "file": "assets/img/logo-tonguemeleon.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\img\\logo-tonguemeleon.png",
+        "name": "logo-tonguemeleon.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -373,7 +337,7 @@
         "file": "assets/img/credits.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\img\\credits.png",
+        "name": "credits.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -382,7 +346,7 @@
         "file": "assets/img/btn-close.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\img\\btn-close.png",
+        "name": "btn-close.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -391,7 +355,7 @@
         "file": "assets/img/btn-play-again.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\img\\btn-play-again.png",
+        "name": "btn-play-again.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -400,7 +364,7 @@
         "file": "assets/img/score.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\img\\score.png",
+        "name": "score.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -409,7 +373,7 @@
         "file": "assets/img/btn-menu.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\img\\btn-menu.png",
+        "name": "btn-menu.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -418,7 +382,7 @@
         "file": "assets/img/highest-score.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\img\\highest-score.png",
+        "name": "highest-score.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -427,7 +391,7 @@
         "file": "assets/img/btn-tongue.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\img\\btn-tongue.png",
+        "name": "btn-tongue.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -436,7 +400,7 @@
         "file": "assets/img/joystick-bg.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\img\\joystick-bg.png",
+        "name": "joystick-bg.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -445,13 +409,13 @@
         "file": "assets/img/joystick.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\img\\joystick.png",
+        "name": "joystick.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "desktop-icon-512.png",
+        "file": "assets/icon/desktop-icon-512.png",
         "kind": "image",
         "metadata": "",
         "name": "desktop-icon-512.png",
@@ -460,7 +424,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "android-icon-192.png",
+        "file": "assets/icon/android-icon-192.png",
         "kind": "image",
         "metadata": "",
         "name": "android-icon-192.png",
@@ -469,7 +433,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "android-icon-144.png",
+        "file": "assets/icon/android-icon-144.png",
         "kind": "image",
         "metadata": "",
         "name": "android-icon-144.png",
@@ -478,7 +442,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "android-icon-96.png",
+        "file": "assets/icon/android-icon-96.png",
         "kind": "image",
         "metadata": "",
         "name": "android-icon-96.png",
@@ -487,7 +451,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "android-icon-72.png",
+        "file": "assets/icon/android-icon-72.png",
         "kind": "image",
         "metadata": "",
         "name": "android-icon-72.png",
@@ -496,7 +460,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "android-icon-48.png",
+        "file": "assets/icon/android-icon-48.png",
         "kind": "image",
         "metadata": "",
         "name": "android-icon-48.png",
@@ -505,7 +469,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "android-icon-36.png",
+        "file": "assets/icon/android-icon-36.png",
         "kind": "image",
         "metadata": "",
         "name": "android-icon-36.png",
@@ -514,7 +478,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-1024.png",
+        "file": "assets/icon/ios-icon-1024.png",
         "kind": "image",
         "metadata": "",
         "name": "ios-icon-1024.png",
@@ -523,7 +487,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-180.png",
+        "file": "assets/icon/ios-icon-180.png",
         "kind": "image",
         "metadata": "",
         "name": "ios-icon-180.png",
@@ -532,7 +496,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-167.png",
+        "file": "assets/icon/ios-icon-167.png",
         "kind": "image",
         "metadata": "",
         "name": "ios-icon-167.png",
@@ -541,7 +505,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-152.png",
+        "file": "assets/icon/ios-icon-152.png",
         "kind": "image",
         "metadata": "",
         "name": "ios-icon-152.png",
@@ -550,7 +514,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-144.png",
+        "file": "assets/icon/ios-icon-144.png",
         "kind": "image",
         "metadata": "",
         "name": "ios-icon-144.png",
@@ -559,7 +523,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-120.png",
+        "file": "assets/icon/ios-icon-120.png",
         "kind": "image",
         "metadata": "",
         "name": "ios-icon-120.png",
@@ -568,7 +532,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-114.png",
+        "file": "assets/icon/ios-icon-114.png",
         "kind": "image",
         "metadata": "",
         "name": "ios-icon-114.png",
@@ -577,7 +541,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-100.png",
+        "file": "assets/icon/ios-icon-100.png",
         "kind": "image",
         "metadata": "",
         "name": "ios-icon-100.png",
@@ -586,7 +550,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-87.png",
+        "file": "assets/icon/ios-icon-87.png",
         "kind": "image",
         "metadata": "",
         "name": "ios-icon-87.png",
@@ -595,7 +559,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-80.png",
+        "file": "assets/icon/ios-icon-80.png",
         "kind": "image",
         "metadata": "",
         "name": "ios-icon-80.png",
@@ -604,7 +568,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-76.png",
+        "file": "assets/icon/ios-icon-76.png",
         "kind": "image",
         "metadata": "",
         "name": "ios-icon-76.png",
@@ -613,7 +577,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-72.png",
+        "file": "assets/icon/ios-icon-72.png",
         "kind": "image",
         "metadata": "",
         "name": "ios-icon-72.png",
@@ -622,7 +586,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-60.png",
+        "file": "assets/icon/ios-icon-60.png",
         "kind": "image",
         "metadata": "",
         "name": "ios-icon-60.png",
@@ -631,7 +595,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-58.png",
+        "file": "assets/icon/ios-icon-58.png",
         "kind": "image",
         "metadata": "",
         "name": "ios-icon-58.png",
@@ -640,7 +604,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-57.png",
+        "file": "assets/icon/ios-icon-57.png",
         "kind": "image",
         "metadata": "",
         "name": "ios-icon-57.png",
@@ -649,7 +613,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-50.png",
+        "file": "assets/icon/ios-icon-50.png",
         "kind": "image",
         "metadata": "",
         "name": "ios-icon-50.png",
@@ -658,7 +622,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-40.png",
+        "file": "assets/icon/ios-icon-40.png",
         "kind": "image",
         "metadata": "",
         "name": "ios-icon-40.png",
@@ -667,7 +631,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-29.png",
+        "file": "assets/icon/ios-icon-29.png",
         "kind": "image",
         "metadata": "",
         "name": "ios-icon-29.png",
@@ -676,7 +640,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "ios-icon-20.png",
+        "file": "assets/icon/ios-icon-20.png",
         "kind": "image",
         "metadata": "",
         "name": "ios-icon-20.png",
@@ -685,25 +649,25 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "tongueAsBullet2.png",
+        "file": "assets/img/tongue-as-bullet.png",
         "kind": "image",
         "metadata": "",
-        "name": "tongueAsBullet2.png",
+        "name": "tongue-as-bullet.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "NewObject-1.png",
+        "file": "assets/img/tongue-collision-area.png",
         "kind": "image",
         "metadata": "",
-        "name": "NewObject-1.png",
+        "name": "tongue-collision-area.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "life-bar-bg.png",
+        "file": "assets/img/life-bar-bg.png",
         "kind": "image",
         "metadata": "",
         "name": "life-bar-bg.png",
@@ -712,7 +676,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "life-bar-green.png",
+        "file": "assets/img/life-bar-green.png",
         "kind": "image",
         "metadata": "",
         "name": "life-bar-green.png",
@@ -721,7 +685,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "life-bar-yellow.png",
+        "file": "assets/img/life-bar-yellow.png",
         "kind": "image",
         "metadata": "",
         "name": "life-bar-yellow.png",
@@ -730,7 +694,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "life-bar-red.png",
+        "file": "assets/img/life-bar-red.png",
         "kind": "image",
         "metadata": "",
         "name": "life-bar-red.png",
@@ -739,19 +703,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/img/Logo Cyan Storm.png",
+        "file": "assets/img/lake.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\img\\Logo Cyan Storm.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/LakeBackground.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\LakeBackground.png",
+        "name": "lake.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -760,17 +715,8 @@
         "file": "assets/img/Fog.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\img\\Fog.png",
+        "name": "fog.png",
         "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "file": "assets/sound/267952_anagar_pop (mp3cut.net).mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\sound\\267952_anagar_pop (mp3cut.net).mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -778,27 +724,126 @@
         "file": "assets/img/wave.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\img\\wave.png",
+        "name": "wave.png",
         "smoothed": true,
         "userAdded": true
       },
       {
-        "file": "assets/sound/shot.wav",
+        "file": "assets/sound/320655_rhodesmas_level-up-01 (mp3cut.net).mp3",
         "kind": "audio",
         "metadata": "",
-        "name": "assets\\sound\\shot.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/sound/score.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\sound\\score.wav",
+        "name": "level-up-01.wav",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/chamaleon-purple.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chamaleon-purple.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/bug-purple-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bug-purple-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/bug-purple-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bug-purple-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/purple-tongue-base.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "purple-tongue-base.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/tongue-center-propeller.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tongue-center-propeller.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/purple-tongue-propeller.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "purple-tongue-propeller.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/exploding-bug-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "exploding-bug-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/exploding-bug-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "exploding-bug-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/exploding-bug-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "exploding-bug-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/exploding-bug-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "exploding-bug-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/exploding-bug-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "exploding-bug-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/splash-screen.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "splash-screen.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -823,7 +868,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Counters-1.png",
+                  "image": "counter-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -875,231 +920,6 @@
   ],
   "layouts": [
     {
-      "b": 244,
-      "disableInputWhenNotFocused": true,
-      "mangledName": "Splash_32Screen",
-      "name": "Splash Screen",
-      "oglFOV": 90,
-      "oglZFar": 500,
-      "oglZNear": 1,
-      "r": 244,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 244,
-      "uiSettings": {
-        "grid": false,
-        "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridColor": 10401023,
-        "gridAlpha": 0.8,
-        "snap": true,
-        "zoomFactor": 0.2,
-        "windowMask": false
-      },
-      "objectsGroups": [],
-      "variables": [],
-      "instances": [],
-      "objects": [
-        {
-          "name": "CyanStormLogo",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\img\\Logo Cyan Storm.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 341,
-                        "y": 466
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "CyanStormLogo",
-                "SceneWindowWidth()/2",
-                "SceneWindowHeight()/2",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ResetObjectTimer"
-              },
-              "parameters": [
-                "CyanStormLogo",
-                "\"splashTimer\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Opacity"
-              },
-              "parameters": [
-                "CyanStormLogo",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "553763_gomi_freezing-logo (mp3cut (mp3cut.net).mp3",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Opacity"
-              },
-              "parameters": [
-                "CyanStormLogo",
-                "+",
-                "2"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ObjectTimer"
-              },
-              "parameters": [
-                "CyanStormLogo",
-                "\"splashTimer\"",
-                "5.5"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Main Menu\"",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        }
-      ],
-      "layers": [
-        {
-          "ambientLightColorB": 0,
-          "ambientLightColorG": 7111000,
-          "ambientLightColorR": 8522168,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "name": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": []
-        }
-      ],
-      "behaviorsSharedData": []
-    },
-    {
       "b": 62,
       "disableInputWhenNotFocused": true,
       "mangledName": "Main_32Menu",
@@ -1148,7 +968,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\img\\btn-play.png",
+                      "image": "btn-play.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1188,7 +1008,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\img\\btn-credits.png",
+                      "image": "btn-credits.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1228,7 +1048,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\img\\btn-exit.png",
+                      "image": "btn-exit.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1268,7 +1088,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\img\\logo-tonguemeleon.png",
+                      "image": "logo-tonguemeleon.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1888,7 +1708,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\img\\credits.png",
+                      "image": "credits.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1928,7 +1748,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\img\\btn-close.png",
+                      "image": "btn-close.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2222,7 +2042,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.2,
+        "zoomFactor": 0.8500000000000003,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2499,8 +2319,8 @@
           "name": "TongueCollisionArea",
           "persistentUuid": "d73b971c-50e7-4746-929d-dd22d3b6e923",
           "width": 0,
-          "x": 1393,
-          "y": 677,
+          "x": 1404,
+          "y": 674,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -2521,8 +2341,8 @@
           "name": "TongueCollisionArea",
           "persistentUuid": "ca33b0aa-8751-4de9-9af4-45d63bec112b",
           "width": 0,
-          "x": 1473,
-          "y": 676,
+          "x": 1495,
+          "y": 671,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -2613,6 +2433,54 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "PurpleCenterReference",
+          "persistentUuid": "0cf78d92-4947-48dd-9417-f847d6e79883",
+          "width": 0,
+          "x": 2123,
+          "y": 360,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "TongueBase",
+          "persistentUuid": "3330c694-c125-4459-804d-6acef8b25a84",
+          "width": 0,
+          "x": 2476,
+          "y": 569,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "TongueProppeler",
+          "persistentUuid": "dd108568-2af3-4b9e-a953-f2acb8545cb0",
+          "width": 0,
+          "x": 1894,
+          "y": 589,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -2635,7 +2503,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Folha (1).png",
+                      "image": "leaf.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2675,7 +2543,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Camaleão (1).png",
+                      "image": "chameleon-green.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2704,7 +2572,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Vermelho.png",
+                      "image": "chameleon-red.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2733,7 +2601,36 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Azul.png",
+                      "image": "chameleon-blue.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 168,
+                        "y": 188
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Purple",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "chamaleon-purple.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2773,7 +2670,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\img\\joystick-bg.png",
+                      "image": "joystick-bg.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2824,7 +2721,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\img\\joystick.png",
+                      "image": "joystick.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2944,7 +2841,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\img\\btn-tongue.png",
+                      "image": "btn-tongue.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2994,8 +2891,8 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "Língua (3).png",
+                      "hasCustomCollisionMask": true,
+                      "image": "tongue.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3008,7 +2905,26 @@
                         "x": 24,
                         "y": 534
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 534
+                          },
+                          {
+                            "x": 0,
+                            "y": 534
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -3046,7 +2962,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject-1-3.png",
+                      "image": "no-1-3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3092,7 +3008,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "MarkerTongue-1.png",
+                      "image": "mt-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3137,7 +3053,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Group 59.png",
+                      "image": "bug-green-0.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3173,7 +3089,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Group 59 (1).png",
+                      "image": "bug-green-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3221,7 +3137,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Group 56.png",
+                      "image": "bug-red-0.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3257,7 +3173,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Group 63.png",
+                      "image": "bug-red-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3305,7 +3221,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Group 57.png",
+                      "image": "bug-blue-0.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3341,7 +3257,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Group 64.png",
+                      "image": "bug-blue-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3374,6 +3290,149 @@
                           }
                         ]
                       ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Purple",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "bug-purple-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 76,
+                        "y": 76
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "bug-purple-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 86,
+                        "y": 71
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Destroy",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.029999999329447746,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "exploding-bug-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 73,
+                        "y": 71
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "exploding-bug-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 112,
+                        "y": 112
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "exploding-bug-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 122,
+                        "y": 122
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "exploding-bug-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 166,
+                        "y": 166
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "exploding-bug-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 186,
+                        "y": 186
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -3511,7 +3570,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject-1-1.png",
+                      "image": "assets\\img\\tongue-collision-area.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3551,7 +3610,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\img\\Fog.png",
+                      "image": "fog.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3820,7 +3879,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "tongueAsBullet2.png",
+                      "image": "tongue-as-bullet.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3866,7 +3925,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject-1.png",
+                      "image": "tongue-collision-area.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3906,7 +3965,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\img\\LakeBackground.png",
+                      "image": "lake.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3951,7 +4010,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\img\\wave.png",
+                      "image": "wave.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3965,6 +4024,201 @@
                         "y": 0
                       },
                       "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PurpleCenterReference",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewObject",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "tongue-center-propeller.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewObject",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
+        },
+        {
+          "name": "TongueBase",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "purple-tongue-base.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 14,
+                        "y": 21
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 14,
+                        "y": 21
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TongueProppeler",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "purple-tongue-propeller.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 217,
+                        "y": 238
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 217,
+                        "y": 238
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 207.20001220703125,
+                            "y": 19.300006866455078
+                          },
+                          {
+                            "x": 224.80001831054688,
+                            "y": 20.10000991821289
+                          },
+                          {
+                            "x": 225.60000610351562,
+                            "y": 60.10000991821289
+                          },
+                          {
+                            "x": 206.39999389648438,
+                            "y": 60.10000991821289
+                          }
+                        ],
+                        [
+                          {
+                            "x": 25.600006103515625,
+                            "y": 341.70001220703125
+                          },
+                          {
+                            "x": 61.600006103515625,
+                            "y": 318.5
+                          },
+                          {
+                            "x": 68.80001831054688,
+                            "y": 332.10003662109375
+                          },
+                          {
+                            "x": 33.600006103515625,
+                            "y": 356.9000244140625
+                          }
+                        ],
+                        [
+                          {
+                            "x": 371.20001220703125,
+                            "y": 320.10003662109375
+                          },
+                          {
+                            "x": 408,
+                            "y": 338.5
+                          },
+                          {
+                            "x": 399.20001220703125,
+                            "y": 350.5
+                          },
+                          {
+                            "x": 366.4000244140625,
+                            "y": 332.9000244140625
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -4195,7 +4449,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\img\\btn-play-again.png",
+                      "image": "btn-play-again.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4255,7 +4509,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\img\\score.png",
+                      "image": "score.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4295,7 +4549,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\img\\btn-menu.png",
+                      "image": "btn-menu.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4479,16 +4733,6 @@
                 "HighScore",
                 "=",
                 "700"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "AdMob::SetTestMode"
-              },
-              "parameters": [
-                "yes"
               ],
               "subInstructions": []
             },
@@ -5086,7 +5330,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\img\\btn-menu.png",
+                      "image": "btn-menu.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5126,7 +5370,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\img\\btn-play-again.png",
+                      "image": "btn-play-again.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5166,7 +5410,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\img\\highest-score.png",
+                      "image": "highest-score.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5758,7 +6002,7 @@
               "parameters": [
                 "BugCollor",
                 "=",
-                "Random(10)"
+                "Random(11)"
               ],
               "subInstructions": []
             },
@@ -7264,8 +7508,41 @@
                   },
                   "parameters": [
                     "BugCollor",
-                    ">=",
+                    "=",
                     "2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Bug",
+                    "\"Purple\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "BugCollor",
+                    ">=",
+                    "3"
                   ],
                   "subInstructions": []
                 }
@@ -8052,6 +8329,50 @@
             {
               "type": {
                 "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TongueBase"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TongueProppeler"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "TongueProppeler",
+                "=",
+                "3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "TongueProppeler",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "ChangePlan"
               },
               "parameters": [
@@ -8092,6 +8413,52 @@
               },
               "parameters": [
                 "TongueCollisionArea"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "PurpleCenterReference"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "PurpleCenterReference",
+                "=",
+                "100"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeHeight"
+              },
+              "parameters": [
+                "PurpleCenterReference",
+                "=",
+                "40"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "PurpleCenterReference",
+                "=",
+                "26"
               ],
               "subInstructions": []
             },
@@ -8139,6 +8506,45 @@
                 "ControllerShootTongue",
                 "=",
                 "255"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "PurpleCenterReference",
+                "Tonguemeleon",
+                "Tonguemeleon.Height()/2+TongueBase.Height()-20",
+                "Variable(ControllerAngle)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "TongueProppeler",
+                "=",
+                "PurpleCenterReference.X()",
+                "=",
+                "PurpleCenterReference.Y()"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Rotate"
+              },
+              "parameters": [
+                "TongueProppeler",
+                "700",
+                ""
               ],
               "subInstructions": []
             }
@@ -8261,6 +8667,47 @@
                 }
               ],
               "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Tongue",
+                        "TonguePosition",
+                        "=",
+                        "4"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Tween::AddObjectScaleTween"
+                      },
+                      "parameters": [
+                        "Tongue",
+                        "Tween",
+                        "\"TongueOut\"",
+                        "1",
+                        "1",
+                        "\"easeInOutBack\"",
+                        "600",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
                 {
                   "disabled": false,
                   "folded": false,
@@ -8466,7 +8913,7 @@
                   "parameters": [
                     "Tongue",
                     "\"counter\"",
-                    "0.25"
+                    "0.2"
                   ],
                   "subInstructions": []
                 }
@@ -8508,6 +8955,171 @@
                 }
               ],
               "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "Tonguemeleon",
+                "\"Purple\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ObjectTimer"
+                  },
+                  "parameters": [
+                    "Tongue",
+                    "\"counter\"",
+                    "4"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectHeightTween"
+                  },
+                  "parameters": [
+                    "TongueBase",
+                    "Tween",
+                    "\"TongueIn\"",
+                    "15",
+                    "\"easeOutCubic\"",
+                    "400",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "TongueProppeler",
+                    "Tween",
+                    "\"TongueIn\"",
+                    "0",
+                    "0",
+                    "\"easeOutCubic\"",
+                    "400",
+                    "",
+                    "no"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ObjectTimer"
+                  },
+                  "parameters": [
+                    "Tongue",
+                    "\"counter\"",
+                    "4.3"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PauseObjectTimer"
+                  },
+                  "parameters": [
+                    "Tongue",
+                    "\"counter\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "ToggleShot",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "TongueProppeler"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "TongueBase"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "TongueCollisionArea",
+                        "Active",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             }
           ]
         },
@@ -8593,7 +9205,7 @@
                       },
                       "parameters": [
                         "Tonguemeleon",
-                        "\"Blue\""
+                        "\"Green\""
                       ],
                       "subInstructions": []
                     }
@@ -8650,9 +9262,88 @@
                     ""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "TongueProppeler"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Tongue",
+                        "TonguePosition",
+                        "!=",
+                        "2"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Tongue"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "TongueCollisionArea",
+                        "TongueCollisionPosition",
+                        "!=",
+                        "2"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "TongueCollisionArea",
+                        "Active",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
                 {
                   "disabled": false,
                   "folded": false,
@@ -8792,7 +9483,7 @@
                       },
                       "parameters": [
                         "Tonguemeleon",
-                        "\"Green\""
+                        "\"Blue\""
                       ],
                       "subInstructions": []
                     }
@@ -8849,78 +9540,19 @@
                     ""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "TongueProppeler"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "Tongue",
-                        "TonguePosition",
-                        "!=",
-                        "2"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Tongue"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "TongueCollisionArea",
-                        "TongueCollisionPosition",
-                        "!=",
-                        "2"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "TongueCollisionArea",
-                        "Active",
-                        "=",
-                        "0"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                },
                 {
                   "disabled": false,
                   "folded": false,
@@ -9136,7 +9768,7 @@
                   "parameters": [
                     "TongueCollisionAreaShoot",
                     "Variable(ControllerAngle)",
-                    "2800",
+                    "3200",
                     "1"
                   ],
                   "subInstructions": []
@@ -9176,7 +9808,7 @@
                   "parameters": [
                     "TongueAsBullet",
                     "Variable(ControllerAngle)",
-                    "2800",
+                    "3200",
                     "1"
                   ],
                   "subInstructions": []
@@ -9259,6 +9891,244 @@
             {
               "disabled": false,
               "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "ControllerShootTongue",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "ToggleShot",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AnimationName"
+                      },
+                      "parameters": [
+                        "Tonguemeleon",
+                        "\"Purple\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "ToggleShot",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Tongue"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "TongueBase",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "TongueProppeler",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "TongueCollisionArea",
+                    "Active",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "267952_anagar_pop (mp3cut.net).mp3",
+                    "no",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Tongue",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PauseObjectTimer"
+                      },
+                      "parameters": [
+                        "Tongue",
+                        "\"counter\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Tongue",
+                        "\"counter\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "UnPauseObjectTimer"
+                      },
+                      "parameters": [
+                        "Tongue",
+                        "\"counter\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangeHeight"
+                      },
+                      "parameters": [
+                        "TongueBase",
+                        "=",
+                        "15"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "TongueBase",
+                        "=",
+                        "2"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Tween::AddObjectScaleTween"
+                          },
+                          "parameters": [
+                            "TongueProppeler",
+                            "Tween",
+                            "\"TongueOut\"",
+                            "1",
+                            "1",
+                            "\"easeInOutBack\"",
+                            "600",
+                            "",
+                            ""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Tween::AddObjectHeightTween"
+                          },
+                          "parameters": [
+                            "TongueBase",
+                            "Tween",
+                            "\"TongueOut\"",
+                            "((SceneWindowHeight()/2.8)-15)-(Tonguemeleon.Height() / 2)",
+                            "\"easeInOutBack\"",
+                            "600",
+                            ""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -9652,7 +10522,7 @@
                         "100",
                         "Variable(ControllerAngle)+90",
                         "\"easeInOutSine\"",
-                        "400",
+                        "500",
                         ""
                       ],
                       "subInstructions": []
@@ -9675,7 +10545,54 @@
                         "value": "SetAngle"
                       },
                       "parameters": [
+                        "PurpleCenterReference",
+                        "=",
+                        "Variable(ControllerAngle)+90"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
                         "Tongue",
+                        "TonguePosition",
+                        "!=",
+                        "4"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "Tongue",
+                        "=",
+                        "Variable(ControllerAngle)+90"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "TongueBase",
                         "=",
                         "Variable(ControllerAngle)+90"
                       ],
@@ -9696,6 +10613,28 @@
           "conditions": [],
           "actions": [],
           "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreAutour"
+                  },
+                  "parameters": [
+                    "TongueBase",
+                    "Tonguemeleon",
+                    "(Tonguemeleon.Height() / 2)-30",
+                    "Variable(ControllerAngle)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
             {
               "disabled": false,
               "folded": false,
@@ -9852,65 +10791,17 @@
           "events": [
             {
               "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "TongueCollisionArea",
-                    "TongueCollisionPosition",
-                    "=",
-                    "2"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreAutour"
-                  },
-                  "parameters": [
-                    "TongueCollisionArea",
-                    "Tonguemeleon",
-                    "Tonguemeleon.Height()/2+Tongue.Height()-55",
-                    "Variable(ControllerAngle)"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetAngle"
-                  },
-                  "parameters": [
-                    "TongueCollisionArea",
-                    "=",
-                    "Variable(ControllerAngle)+90"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
               "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": true,
+                    "inverted": false,
                     "value": "AnimationName"
                   },
                   "parameters": [
                     "Tonguemeleon",
-                    "\"Blue\""
+                    "\"Green\""
                   ],
                   "subInstructions": []
                 }
@@ -9979,7 +10870,151 @@
                         "TongueCollisionArea",
                         "TongueCollisionPosition",
                         "=",
+                        "2"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MettreAutour"
+                      },
+                      "parameters": [
+                        "TongueCollisionArea",
+                        "Tonguemeleon",
+                        "Tonguemeleon.Height()/2+Tongue.Height()-55",
+                        "Variable(ControllerAngle)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "TongueCollisionArea",
+                        "=",
+                        "Variable(ControllerAngle)+90"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "TongueCollisionArea",
+                        "TongueCollisionPosition",
+                        "=",
                         "3"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "TongueCollisionArea",
+                        "=",
+                        "Variable(ControllerAngle)+90"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MettreAutour"
+                      },
+                      "parameters": [
+                        "TongueCollisionArea",
+                        "Tonguemeleon",
+                        "Tonguemeleon.Height()/2+Tongue.Height()-55",
+                        "Variable(ControllerAngle)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "TongueCollisionArea",
+                        "TongueCollisionPosition",
+                        "=",
+                        "4"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "TongueCollisionArea",
+                        "=",
+                        "Variable(ControllerAngle)+90"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MettreAutour"
+                      },
+                      "parameters": [
+                        "TongueCollisionArea",
+                        "Tonguemeleon",
+                        "Tonguemeleon.Height()/2+Tongue.Height()-55",
+                        "Variable(ControllerAngle)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "TongueCollisionArea",
+                        "TongueCollisionPosition",
+                        "=",
+                        "5"
                       ],
                       "subInstructions": []
                     }
@@ -10096,6 +11131,54 @@
                         "TongueCollisionArea",
                         "TongueCollisionPosition",
                         "=",
+                        "2"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MettreAutour"
+                      },
+                      "parameters": [
+                        "TongueCollisionArea",
+                        "Tonguemeleon",
+                        "Tonguemeleon.Height()/2+Tongue.Height()-55",
+                        "Variable(ControllerAngle)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "TongueCollisionArea",
+                        "=",
+                        "Variable(ControllerAngle)+90"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "TongueCollisionArea",
+                        "TongueCollisionPosition",
+                        "=",
                         "3"
                       ],
                       "subInstructions": []
@@ -10124,6 +11207,363 @@
                         "TongueCollisionArea",
                         "=",
                         "Variable(ControllerAngle)+135"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "TongueCollisionArea",
+                        "TongueCollisionPosition",
+                        "=",
+                        "4"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "TongueCollisionArea",
+                        "=",
+                        "Variable(ControllerAngle)+90"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MettreAutour"
+                      },
+                      "parameters": [
+                        "TongueCollisionArea",
+                        "Tonguemeleon",
+                        "Tonguemeleon.Height()/2+Tongue.Height()-55",
+                        "Variable(ControllerAngle)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "TongueCollisionArea",
+                        "TongueCollisionPosition",
+                        "=",
+                        "5"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "TongueCollisionArea",
+                        "=",
+                        "Variable(ControllerAngle)+90"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MettreAutour"
+                      },
+                      "parameters": [
+                        "TongueCollisionArea",
+                        "Tonguemeleon",
+                        "Tonguemeleon.Height()/2+Tongue.Height()-55",
+                        "Variable(ControllerAngle)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "Tonguemeleon",
+                    "\"Red\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "TongueCollisionArea",
+                        "TongueCollisionPosition",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "TongueCollisionArea",
+                        "=",
+                        "Variable(ControllerAngle)+90"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MettreAutour"
+                      },
+                      "parameters": [
+                        "TongueCollisionArea",
+                        "Tonguemeleon",
+                        "Tonguemeleon.Height()/2+Tongue.Height()-55",
+                        "Variable(ControllerAngle)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "TongueCollisionArea",
+                        "TongueCollisionPosition",
+                        "=",
+                        "2"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MettreAutour"
+                      },
+                      "parameters": [
+                        "TongueCollisionArea",
+                        "Tonguemeleon",
+                        "Tonguemeleon.Height()/2+Tongue.Height()-55",
+                        "Variable(ControllerAngle)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "TongueCollisionArea",
+                        "=",
+                        "Variable(ControllerAngle)+90"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "TongueCollisionArea",
+                        "TongueCollisionPosition",
+                        "=",
+                        "3"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "TongueCollisionArea",
+                        "=",
+                        "Variable(ControllerAngle)+90"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MettreAutour"
+                      },
+                      "parameters": [
+                        "TongueCollisionArea",
+                        "Tonguemeleon",
+                        "Tonguemeleon.Height()/2+Tongue.Height()-55",
+                        "Variable(ControllerAngle)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "TongueCollisionArea",
+                        "TongueCollisionPosition",
+                        "=",
+                        "4"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "TongueCollisionArea",
+                        "=",
+                        "Variable(ControllerAngle)+90"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MettreAutour"
+                      },
+                      "parameters": [
+                        "TongueCollisionArea",
+                        "Tonguemeleon",
+                        "Tonguemeleon.Height()/2+Tongue.Height()-55",
+                        "Variable(ControllerAngle)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "TongueCollisionArea",
+                        "TongueCollisionPosition",
+                        "=",
+                        "5"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "TongueCollisionArea",
+                        "=",
+                        "Variable(ControllerAngle)+90"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MettreAutour"
+                      },
+                      "parameters": [
+                        "TongueCollisionArea",
+                        "Tonguemeleon",
+                        "Tonguemeleon.Height()/2+Tongue.Height()-55",
+                        "Variable(ControllerAngle)"
                       ],
                       "subInstructions": []
                     }
@@ -10525,7 +11965,7 @@
       "events": [
         {
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -10681,23 +12121,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Tween::AddObjectPositionTween"
-              },
-              "parameters": [
-                "Bug",
-                "Tween",
-                "\"BugCollision\"",
-                "Tonguemeleon.X()",
-                "Tonguemeleon.Y()",
-                "\"easeOutQuad\"",
-                "200",
-                "yes"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "ChangePlan"
               },
               "parameters": [
@@ -10714,9 +12137,9 @@
               },
               "parameters": [
                 "",
-                "assets\\sound\\score.wav",
+                "level-up-01.wav",
                 "no",
-                "80",
+                "60",
                 ""
               ],
               "subInstructions": []
@@ -10751,6 +12174,17 @@
                     "\"Blue\""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Bug",
+                    "\"Destroy\""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -10783,6 +12217,17 @@
                     "\"Green\""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Bug",
+                    "\"Destroy\""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -10813,6 +12258,72 @@
                   "parameters": [
                     "Tonguemeleon",
                     "\"Red\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Bug",
+                    "\"Destroy\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "Bug",
+                    "\"Purple\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Tonguemeleon",
+                    "\"Purple\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Bug",
+                    "\"Destroy\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "ToggleShot",
+                    "=",
+                    "0"
                   ],
                   "subInstructions": []
                 }
@@ -10823,7 +12334,7 @@
         },
         {
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -10967,23 +12478,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Tween::AddObjectPositionTween"
-              },
-              "parameters": [
-                "Bug",
-                "Tween",
-                "\"BugCollision\"",
-                "Tonguemeleon.X()",
-                "Tonguemeleon.Y()",
-                "\"easeOutQuad\"",
-                "200",
-                "yes"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "ChangePlan"
               },
               "parameters": [
@@ -11000,9 +12494,9 @@
               },
               "parameters": [
                 "",
-                "assets\\sound\\score.wav",
+                "level-up-01.wav",
                 "no",
-                "80",
+                "60",
                 ""
               ],
               "subInstructions": []
@@ -11037,6 +12531,17 @@
                     "\"Blue\""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Bug",
+                    "\"Destroy\""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -11069,6 +12574,17 @@
                     "\"Green\""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Bug",
+                    "\"Destroy\""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -11099,6 +12615,72 @@
                   "parameters": [
                     "Tonguemeleon",
                     "\"Red\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Bug",
+                    "\"Destroy\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "Bug",
+                    "\"Purple\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Tonguemeleon",
+                    "\"Purple\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Bug",
+                    "\"Destroy\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "ToggleShot",
+                    "=",
+                    "0"
                   ],
                   "subInstructions": []
                 }
@@ -11106,6 +12688,424 @@
               "events": []
             }
           ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "TongueProppeler",
+                "Bug",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "ToggleShot",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "Tonguemeleon",
+                "\"Purple\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectHeightTween"
+              },
+              "parameters": [
+                "TongueBase",
+                "Tween",
+                "\"TongueIn\"",
+                "15",
+                "\"easeOutCubic\"",
+                "400",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectScaleTween"
+              },
+              "parameters": [
+                "TongueProppeler",
+                "Tween",
+                "\"TongueIn\"",
+                "0",
+                "0",
+                "\"easeOutCubic\"",
+                "400",
+                "",
+                "no"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "TongueCollisionAreaShoot",
+                "Active",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Arreter"
+              },
+              "parameters": [
+                "Bug"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Shots",
+                "+",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::StopTween"
+              },
+              "parameters": [
+                "Tongue",
+                "Tween",
+                "\"TongueOut\"",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "LifeBar",
+                "=",
+                "SceneWindowWidth()"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "SubtractTimer",
+                "-",
+                ".04"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "5"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "Bug",
+                "=",
+                "3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "level-up-01.wav",
+                "no",
+                "60",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "Bug",
+                    "\"Red\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Tonguemeleon",
+                    "\"Red\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Bug",
+                    "\"Destroy\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "Bug",
+                    "\"Purple\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Tonguemeleon",
+                    "\"Purple\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Bug",
+                    "\"Destroy\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "ToggleShot",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "Bug",
+                    "\"Blue\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Tonguemeleon",
+                    "\"Blue\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Bug",
+                    "\"Destroy\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "Bug",
+                    "\"Green\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Tonguemeleon",
+                    "\"Green\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Bug",
+                    "\"Destroy\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "Bug",
+                "\"Destroy\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnimationEnded"
+              },
+              "parameters": [
+                "Bug"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Bug",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ]
     },
