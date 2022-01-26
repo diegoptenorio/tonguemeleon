@@ -68,12 +68,14 @@ Tools:
 # Contribution
 
 ### Fonts
-Nougat-ExtraBlack.ttf
-<https://www.dafont.com/pt/nougat.font>
+
+All fonts are provided by DaFont
+
+- [Nougat-ExtraBlack.ttf](https://www.dafont.com/pt/nougat.font)
 
 ### Sound
 
-All sounds are provided by freesound.org plataform
+All sounds are provided by freesound.org
 
 - [Countryside with bees by bassboybg](https://freesound.org/people/bassboybg/sounds/242151/)
 - [pop.wav by anagar](https://freesound.org/people/anagar/sounds/267952/)
