@@ -2069,7 +2069,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.8750000000000003,
+        "zoomFactor": 0.27500000000000047,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2156,11 +2156,6 @@
               "value": ""
             }
           ]
-        },
-        {
-          "name": "SubtractTimer",
-          "type": "string",
-          "value": ".3"
         },
         {
           "name": "InitialCountDown",
@@ -6230,7 +6225,7 @@
                       "parameters": [
                         "Counters",
                         "\"counter\"",
-                        "0.8"
+                        "0.9"
                       ],
                       "subInstructions": []
                     },
@@ -6275,7 +6270,7 @@
                       "parameters": [
                         "Counters",
                         "\"counter\"",
-                        "0.5"
+                        "0.7"
                       ],
                       "subInstructions": []
                     },
@@ -6320,7 +6315,7 @@
                       "parameters": [
                         "Counters",
                         "\"counter\"",
-                        "0.3"
+                        "0.5"
                       ],
                       "subInstructions": []
                     },
@@ -6350,7 +6345,7 @@
               "parameters": [
                 "BugCollor",
                 "=",
-                "Random(11)"
+                "Random(12)"
               ],
               "subInstructions": []
             },
@@ -8868,7 +8863,7 @@
         },
         {
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -8971,47 +8966,6 @@
                   "disabled": false,
                   "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "Tongue",
-                        "TonguePosition",
-                        "=",
-                        "4"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Tween::AddObjectScaleTween"
-                      },
-                      "parameters": [
-                        "Tongue",
-                        "Tween",
-                        "\"TongueOut\"",
-                        "1",
-                        "1",
-                        "\"easeInOutBack\"",
-                        "600",
-                        "",
-                        ""
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
                     {
@@ -9046,7 +9000,7 @@
         },
         {
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -9539,6 +9493,16 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "TongueProppeler"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "ModVarObjet"
                   },
                   "parameters": [
@@ -9560,16 +9524,6 @@
                     "no",
                     "100",
                     ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "TongueProppeler"
                   ],
                   "subInstructions": []
                 }
@@ -9817,6 +9771,16 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "TongueProppeler"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "ModVarObjet"
                   },
                   "parameters": [
@@ -9838,16 +9802,6 @@
                     "no",
                     "100",
                     ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "TongueProppeler"
                   ],
                   "subInstructions": []
                 }
@@ -10003,13 +9957,45 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "ToggleShot",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "TongueProppeler"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Tongue"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "Create"
                   },
                   "parameters": [
                     "",
                     "TongueCollisionAreaShoot",
-                    "TongueCollisionArea.X()",
-                    "TongueCollisionArea.Y()",
+                    "PurpleCenterReference.X()-PurpleCenterReference.Width()/2",
+                    "PurpleCenterReference.Y()-PurpleCenterReference.Height()/2",
                     ""
                   ],
                   "subInstructions": []
@@ -10094,8 +10080,8 @@
                   "parameters": [
                     "",
                     "TongueAsBullet",
-                    "TongueCollisionArea.X()-10",
-                    "TongueCollisionArea.Y()+75",
+                    "TongueCollisionAreaShoot.X()-10",
+                    "TongueCollisionAreaShoot.Y()+75",
                     ""
                   ],
                   "subInstructions": []
@@ -10122,18 +10108,6 @@
                     "TongueAsBullet",
                     "=",
                     "Variable(ControllerAngle)+90"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "ToggleShot",
-                    "=",
-                    "1"
                   ],
                   "subInstructions": []
                 },
@@ -11610,267 +11584,6 @@
                   "events": []
                 }
               ]
-            },
-            {
-              "disabled": false,
-              "folded": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "AnimationName"
-                  },
-                  "parameters": [
-                    "Tonguemeleon",
-                    "\"Red\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "TongueCollisionArea",
-                        "TongueCollisionPosition",
-                        "=",
-                        "1"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "SetAngle"
-                      },
-                      "parameters": [
-                        "TongueCollisionArea",
-                        "=",
-                        "Variable(ControllerAngle)+90"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "MettreAutour"
-                      },
-                      "parameters": [
-                        "TongueCollisionArea",
-                        "Tonguemeleon",
-                        "Tonguemeleon.Height()/2+Tongue.Height()-55",
-                        "Variable(ControllerAngle)"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "TongueCollisionArea",
-                        "TongueCollisionPosition",
-                        "=",
-                        "2"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "MettreAutour"
-                      },
-                      "parameters": [
-                        "TongueCollisionArea",
-                        "Tonguemeleon",
-                        "Tonguemeleon.Height()/2+Tongue.Height()-55",
-                        "Variable(ControllerAngle)"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "SetAngle"
-                      },
-                      "parameters": [
-                        "TongueCollisionArea",
-                        "=",
-                        "Variable(ControllerAngle)+90"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "TongueCollisionArea",
-                        "TongueCollisionPosition",
-                        "=",
-                        "3"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "SetAngle"
-                      },
-                      "parameters": [
-                        "TongueCollisionArea",
-                        "=",
-                        "Variable(ControllerAngle)+90"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "MettreAutour"
-                      },
-                      "parameters": [
-                        "TongueCollisionArea",
-                        "Tonguemeleon",
-                        "Tonguemeleon.Height()/2+Tongue.Height()-55",
-                        "Variable(ControllerAngle)"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "TongueCollisionArea",
-                        "TongueCollisionPosition",
-                        "=",
-                        "4"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "SetAngle"
-                      },
-                      "parameters": [
-                        "TongueCollisionArea",
-                        "=",
-                        "Variable(ControllerAngle)+90"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "MettreAutour"
-                      },
-                      "parameters": [
-                        "TongueCollisionArea",
-                        "Tonguemeleon",
-                        "Tonguemeleon.Height()/2+Tongue.Height()-55",
-                        "Variable(ControllerAngle)"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "TongueCollisionArea",
-                        "TongueCollisionPosition",
-                        "=",
-                        "5"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "SetAngle"
-                      },
-                      "parameters": [
-                        "TongueCollisionArea",
-                        "=",
-                        "Variable(ControllerAngle)+90"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "MettreAutour"
-                      },
-                      "parameters": [
-                        "TongueCollisionArea",
-                        "Tonguemeleon",
-                        "Tonguemeleon.Height()/2+Tongue.Height()-55",
-                        "Variable(ControllerAngle)"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                }
-              ]
             }
           ]
         },
@@ -12334,22 +12047,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Tween::AddObjectHeightTween"
-              },
-              "parameters": [
-                "Tongue",
-                "Tween",
-                "\"TongueIn\"",
-                "15",
-                "\"easeOutCubic\"",
-                "400",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "Arreter"
               },
               "parameters": [
@@ -12372,37 +12069,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Tween::StopTween"
-              },
-              "parameters": [
-                "Tongue",
-                "Tween",
-                "\"TongueOut\"",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "ChangeWidth"
               },
               "parameters": [
                 "LifeBar",
                 "=",
                 "SceneWindowWidth()"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "SubtractTimer",
-                "-",
-                ".04"
               ],
               "subInstructions": []
             },
@@ -12462,6 +12134,104 @@
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::StopTween"
+                  },
+                  "parameters": [
+                    "TongueBase",
+                    "Tween",
+                    "\"TongueOut\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::StopTween"
+                  },
+                  "parameters": [
+                    "Tongue",
+                    "Tween",
+                    "\"TongueOut\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::StopTween"
+                  },
+                  "parameters": [
+                    "TongueProppeler",
+                    "Tween",
+                    "\"TongueOut\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectHeightTween"
+                  },
+                  "parameters": [
+                    "TongueBase",
+                    "Tween",
+                    "\"TongueIn\"",
+                    "15",
+                    "\"easeOutCubic\"",
+                    "400",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "TongueProppeler",
+                    "Tween",
+                    "\"TongueIn\"",
+                    "0",
+                    "0",
+                    "\"easeOutCubic\"",
+                    "400",
+                    "",
+                    "no"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectHeightTween"
+                  },
+                  "parameters": [
+                    "Tongue",
+                    "Tween",
+                    "\"TongueIn\"",
+                    "15",
+                    "\"easeOutCubic\"",
+                    "400",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
@@ -12570,49 +12340,6 @@
                   "parameters": [
                     "Tonguemeleon",
                     "\"Red\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "Bug",
-                    "\"Destroy\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "AnimationName"
-                  },
-                  "parameters": [
-                    "Bug",
-                    "\"Purple\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "Tonguemeleon",
-                    "\"Purple\""
                   ],
                   "subInstructions": []
                 },
@@ -12635,7 +12362,50 @@
                   "parameters": [
                     "ToggleShot",
                     "=",
-                    "0"
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "Bug",
+                    "\"Purple\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Tonguemeleon",
+                    "\"Purple\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Bug",
+                    "\"Destroy\""
                   ],
                   "subInstructions": []
                 }
@@ -12703,22 +12473,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Tween::AddObjectHeightTween"
-              },
-              "parameters": [
-                "Tongue",
-                "Tween",
-                "\"TongueIn\"",
-                "15",
-                "\"easeOutCubic\"",
-                "400",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "Arreter"
               },
               "parameters": [
@@ -12741,37 +12495,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Tween::StopTween"
-              },
-              "parameters": [
-                "Tongue",
-                "Tween",
-                "\"TongueOut\"",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "ChangeWidth"
               },
               "parameters": [
                 "LifeBar",
                 "=",
                 "SceneWindowWidth()"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "SubtractTimer",
-                "-",
-                ".04"
               ],
               "subInstructions": []
             },
@@ -12831,6 +12560,104 @@
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::StopTween"
+                  },
+                  "parameters": [
+                    "TongueBase",
+                    "Tween",
+                    "\"TongueOut\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::StopTween"
+                  },
+                  "parameters": [
+                    "Tongue",
+                    "Tween",
+                    "\"TongueOut\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::StopTween"
+                  },
+                  "parameters": [
+                    "TongueProppeler",
+                    "Tween",
+                    "\"TongueOut\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectHeightTween"
+                  },
+                  "parameters": [
+                    "TongueBase",
+                    "Tween",
+                    "\"TongueIn\"",
+                    "15",
+                    "\"easeOutCubic\"",
+                    "400",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "TongueProppeler",
+                    "Tween",
+                    "\"TongueIn\"",
+                    "0",
+                    "0",
+                    "\"easeOutCubic\"",
+                    "400",
+                    "",
+                    "no"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectHeightTween"
+                  },
+                  "parameters": [
+                    "Tongue",
+                    "Tween",
+                    "\"TongueIn\"",
+                    "15",
+                    "\"easeOutCubic\"",
+                    "400",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
@@ -12939,49 +12766,6 @@
                   "parameters": [
                     "Tonguemeleon",
                     "\"Red\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "Bug",
-                    "\"Destroy\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "AnimationName"
-                  },
-                  "parameters": [
-                    "Bug",
-                    "\"Purple\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "Tonguemeleon",
-                    "\"Purple\""
                   ],
                   "subInstructions": []
                 },
@@ -13004,7 +12788,50 @@
                   "parameters": [
                     "ToggleShot",
                     "=",
-                    "0"
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "Bug",
+                    "\"Purple\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Tonguemeleon",
+                    "\"Purple\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Bug",
+                    "\"Destroy\""
                   ],
                   "subInstructions": []
                 }
@@ -13060,40 +12887,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Tween::AddObjectHeightTween"
-              },
-              "parameters": [
-                "TongueBase",
-                "Tween",
-                "\"TongueIn\"",
-                "15",
-                "\"easeOutCubic\"",
-                "400",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Tween::AddObjectScaleTween"
-              },
-              "parameters": [
-                "TongueProppeler",
-                "Tween",
-                "\"TongueIn\"",
-                "0",
-                "0",
-                "\"easeOutCubic\"",
-                "400",
-                "",
-                "no"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "ModVarObjet"
               },
               "parameters": [
@@ -13129,37 +12922,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Tween::StopTween"
-              },
-              "parameters": [
-                "Tongue",
-                "Tween",
-                "\"TongueOut\"",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "ChangeWidth"
               },
               "parameters": [
                 "LifeBar",
                 "=",
                 "SceneWindowWidth()"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "SubtractTimer",
-                "-",
-                ".04"
               ],
               "subInstructions": []
             },
@@ -13215,6 +12983,104 @@
             }
           ],
           "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::StopTween"
+                  },
+                  "parameters": [
+                    "TongueBase",
+                    "Tween",
+                    "\"TongueOut\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::StopTween"
+                  },
+                  "parameters": [
+                    "Tongue",
+                    "Tween",
+                    "\"TongueOut\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::StopTween"
+                  },
+                  "parameters": [
+                    "TongueProppeler",
+                    "Tween",
+                    "\"TongueOut\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectHeightTween"
+                  },
+                  "parameters": [
+                    "TongueBase",
+                    "Tween",
+                    "\"TongueIn\"",
+                    "15",
+                    "\"easeOutCubic\"",
+                    "400",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "TongueProppeler",
+                    "Tween",
+                    "\"TongueIn\"",
+                    "0",
+                    "0",
+                    "\"easeOutCubic\"",
+                    "400",
+                    "",
+                    "no"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectHeightTween"
+                  },
+                  "parameters": [
+                    "Tongue",
+                    "Tween",
+                    "\"TongueIn\"",
+                    "15",
+                    "\"easeOutCubic\"",
+                    "400",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
             {
               "disabled": false,
               "folded": false,
@@ -13769,7 +13635,7 @@
               "parameters": [
                 "LifeBar",
                 "-",
-                "Variable(SubtractTimer)*5"
+                "(3000+Variable(Timer))/2250"
               ],
               "subInstructions": []
             }
