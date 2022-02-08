@@ -21,7 +21,7 @@
     "author": "Cyan Storm Game Studio",
     "windowWidth": 3200,
     "windowHeight": 1440,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "C:\\Users\\diego\\Downloads",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -6345,7 +6345,7 @@
               "parameters": [
                 "BugCollor",
                 "=",
-                "Random(12)"
+                "12"
               ],
               "subInstructions": []
             },
@@ -6396,18 +6396,6 @@
                 "Bug",
                 "=",
                 "5"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "SubtractTimer",
-                "+",
-                ".04"
               ],
               "subInstructions": []
             }
@@ -9417,7 +9405,7 @@
           "events": [
             {
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -9681,7 +9669,7 @@
                             "\"TongueOut\"",
                             "(SceneWindowHeight()/2)-(Tonguemeleon.Height() / 2)",
                             "\"easeInOutBack\"",
-                            "600",
+                            "450",
                             ""
                           ],
                           "subInstructions": []
@@ -9695,7 +9683,7 @@
             },
             {
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -9877,7 +9865,82 @@
                       "disabled": false,
                       "folded": false,
                       "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "Tongue",
+                            "TonguePosition",
+                            "=",
+                            "2"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Tween::AddObjectHeightTween"
+                          },
+                          "parameters": [
+                            "Tongue",
+                            "Tween",
+                            "\"TongueOut\"",
+                            "(SceneWindowHeight()/2)-(Tonguemeleon.Height() / 2)",
+                            "\"easeInOutBack\"",
+                            "450",
+                            ""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "Tongue",
+                                "TonguePosition",
+                                "=",
+                                "1"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "Tongue",
+                                "TonguePosition",
+                                "=",
+                                "3"
+                              ],
+                              "subInstructions": []
+                            }
+                          ]
+                        }
+                      ],
                       "actions": [
                         {
                           "type": {
@@ -13635,7 +13698,7 @@
               "parameters": [
                 "LifeBar",
                 "-",
-                "(3000+Variable(Timer))/2250"
+                "(2800+Variable(Timer))/2000"
               ],
               "subInstructions": []
             }
