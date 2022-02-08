@@ -16,7 +16,7 @@
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
-    "version": "1.0.0",
+    "version": "1.0.2",
     "name": "Tonguemeleon",
     "author": "Cyan Storm Game Studio",
     "windowWidth": 3200,
@@ -6345,7 +6345,7 @@
               "parameters": [
                 "BugCollor",
                 "=",
-                "12"
+                "Random(12)"
               ],
               "subInstructions": []
             },
