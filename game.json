@@ -12041,7 +12041,7 @@
       "events": [
         {
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -12086,7 +12086,7 @@
                   "parameters": [
                     "Tongue",
                     "\"counter\"",
-                    ".25"
+                    ".15"
                   ],
                   "subInstructions": []
                 }
@@ -12479,7 +12479,7 @@
         },
         {
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -12905,7 +12905,7 @@
         },
         {
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -12942,6 +12942,18 @@
               "parameters": [
                 "Tonguemeleon",
                 "\"Purple\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "Tongue",
+                "\"counter\"",
+                ".05"
               ],
               "subInstructions": []
             }
