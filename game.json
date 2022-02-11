@@ -16,7 +16,7 @@
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
-    "version": "1.0.2",
+    "version": "1.0.5",
     "name": "Tonguemeleon",
     "author": "Cyan Storm Game Studio",
     "windowWidth": 3200,
@@ -26,32 +26,32 @@
     "minFPS": 20,
     "verticalSync": false,
     "platformSpecificAssets": {
-      "android-icon-144": "android-icon-144.png",
-      "android-icon-192": "android-icon-192.png",
-      "android-icon-36": "android-icon-36.png",
-      "android-icon-48": "android-icon-48.png",
-      "android-icon-72": "android-icon-72.png",
-      "android-icon-96": "android-icon-96.png",
-      "desktop-icon-512": "desktop-icon-512.png",
-      "ios-icon-100": "ios-icon-100.png",
-      "ios-icon-1024": "ios-icon-1024.png",
-      "ios-icon-114": "ios-icon-114.png",
-      "ios-icon-120": "ios-icon-120.png",
-      "ios-icon-144": "ios-icon-144.png",
-      "ios-icon-152": "ios-icon-152.png",
-      "ios-icon-167": "ios-icon-167.png",
-      "ios-icon-180": "ios-icon-180.png",
-      "ios-icon-20": "ios-icon-20.png",
-      "ios-icon-29": "ios-icon-29.png",
-      "ios-icon-40": "ios-icon-40.png",
-      "ios-icon-50": "ios-icon-50.png",
-      "ios-icon-57": "ios-icon-57.png",
-      "ios-icon-58": "ios-icon-58.png",
-      "ios-icon-60": "ios-icon-60.png",
-      "ios-icon-72": "ios-icon-72.png",
-      "ios-icon-76": "ios-icon-76.png",
-      "ios-icon-80": "ios-icon-80.png",
-      "ios-icon-87": "ios-icon-87.png"
+      "android-icon-144": "assets\\icon\\android-icon-144.png",
+      "android-icon-192": "assets\\icon\\android-icon-192.png",
+      "android-icon-36": "assets\\icon\\android-icon-36.png",
+      "android-icon-48": "assets\\icon\\android-icon-48.png",
+      "android-icon-72": "assets\\icon\\android-icon-72.png",
+      "android-icon-96": "assets\\icon\\android-icon-96.png",
+      "desktop-icon-512": "assets\\icon\\desktop-icon-512.png",
+      "ios-icon-100": "assets\\icon\\ios-icon-100.png",
+      "ios-icon-1024": "assets\\icon\\ios-icon-1024.png",
+      "ios-icon-114": "assets\\icon\\ios-icon-114.png",
+      "ios-icon-120": "assets\\icon\\ios-icon-120.png",
+      "ios-icon-144": "assets\\icon\\ios-icon-144.png",
+      "ios-icon-152": "assets\\icon\\ios-icon-152.png",
+      "ios-icon-167": "assets\\icon\\ios-icon-167.png",
+      "ios-icon-180": "assets\\icon\\ios-icon-180.png",
+      "ios-icon-20": "assets\\icon\\ios-icon-20.png",
+      "ios-icon-29": "assets\\icon\\ios-icon-29.png",
+      "ios-icon-40": "assets\\icon\\ios-icon-40.png",
+      "ios-icon-50": "assets\\icon\\ios-icon-50.png",
+      "ios-icon-57": "assets\\icon\\ios-icon-57.png",
+      "ios-icon-58": "assets\\icon\\ios-icon-58.png",
+      "ios-icon-60": "assets\\icon\\ios-icon-60.png",
+      "ios-icon-72": "assets\\icon\\ios-icon-72.png",
+      "ios-icon-76": "assets\\icon\\ios-icon-76.png",
+      "ios-icon-80": "assets\\icon\\ios-icon-80.png",
+      "ios-icon-87": "assets\\icon\\ios-icon-87.png"
     },
     "loadingScreen": {
       "backgroundColor": 16053492,
@@ -433,240 +433,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/icon/desktop-icon-512.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "desktop-icon-512.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/icon/android-icon-192.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "android-icon-192.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/icon/android-icon-144.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "android-icon-144.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/icon/android-icon-96.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "android-icon-96.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/icon/android-icon-72.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "android-icon-72.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/icon/android-icon-48.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "android-icon-48.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/icon/android-icon-36.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "android-icon-36.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/icon/ios-icon-1024.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-1024.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/icon/ios-icon-180.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-180.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/icon/ios-icon-167.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-167.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/icon/ios-icon-152.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-152.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/icon/ios-icon-144.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-144.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/icon/ios-icon-120.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-120.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/icon/ios-icon-114.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-114.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/icon/ios-icon-100.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-100.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/icon/ios-icon-87.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-87.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/icon/ios-icon-80.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-80.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/icon/ios-icon-76.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-76.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/icon/ios-icon-72.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-72.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/icon/ios-icon-60.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-60.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/icon/ios-icon-58.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-58.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/icon/ios-icon-57.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-57.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/icon/ios-icon-50.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-50.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/icon/ios-icon-40.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-40.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/icon/ios-icon-29.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-29.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/icon/ios-icon-20.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-20.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/img/tongue-as-bullet.png",
         "kind": "image",
         "metadata": "",
@@ -680,42 +446,6 @@
         "kind": "image",
         "metadata": "",
         "name": "tongue-collision-area.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/life-bar-bg.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "life-bar-bg.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/life-bar-green.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "life-bar-green.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/life-bar-yellow.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "life-bar-yellow.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/life-bar-red.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "life-bar-red.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -871,6 +601,276 @@
         "name": "assets\\img\\tongue-collision-area.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icon/desktop-icon-512.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icon\\desktop-icon-512.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icon/android-icon-192.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icon\\android-icon-192.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icon/android-icon-144.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icon\\android-icon-144.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icon/android-icon-96.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icon\\android-icon-96.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icon/android-icon-72.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icon\\android-icon-72.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icon/android-icon-48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icon\\android-icon-48.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icon/android-icon-36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icon\\android-icon-36.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icon/ios-icon-1024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icon\\ios-icon-1024.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icon/ios-icon-180.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icon\\ios-icon-180.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icon/ios-icon-167.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icon\\ios-icon-167.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icon/ios-icon-152.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icon\\ios-icon-152.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icon/ios-icon-144.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icon\\ios-icon-144.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icon/ios-icon-120.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icon\\ios-icon-120.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icon/ios-icon-114.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icon\\ios-icon-114.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icon/ios-icon-100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icon\\ios-icon-100.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icon/ios-icon-87.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icon\\ios-icon-87.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icon/ios-icon-80.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icon\\ios-icon-80.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icon/ios-icon-76.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icon\\ios-icon-76.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icon/ios-icon-72.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icon\\ios-icon-72.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icon/ios-icon-60.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icon\\ios-icon-60.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icon/ios-icon-58.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icon\\ios-icon-58.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icon/ios-icon-57.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icon\\ios-icon-57.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icon/ios-icon-50.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icon\\ios-icon-50.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icon/ios-icon-40.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icon\\ios-icon-40.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icon/ios-icon-29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icon\\ios-icon-29.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icon/ios-icon-20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icon\\ios-icon-20.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/life-bar-bg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\life-bar-bg.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/life-bar-green.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\life-bar-green.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/life-bar-yellow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\life-bar-yellow.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/life-bar-red.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\life-bar-red.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3672,12 +3672,12 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "life-bar-green.png",
+                      "image": "assets\\img\\life-bar-green.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 12,
-                        "y": 30
+                        "x": 35,
+                        "y": 250
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -3701,12 +3701,12 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "life-bar-yellow.png",
+                      "image": "assets\\img\\life-bar-yellow.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 12,
-                        "y": 30
+                        "x": 35,
+                        "y": 250
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -3730,12 +3730,12 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "life-bar-red.png",
+                      "image": "assets\\img\\life-bar-red.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 12,
-                        "y": 30
+                        "x": 35,
+                        "y": 250
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -3841,12 +3841,12 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "life-bar-bg.png",
+                      "image": "assets\\img\\life-bar-bg.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 12,
-                        "y": 30
+                        "x": 39,
+                        "y": 253
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -4764,7 +4764,7 @@
                 "value": "AdMob::LoadInterstitial"
               },
               "parameters": [
-                "\"ca-app-pub-9740586095651548/6948716458\"",
+                "\"ca-app-pub-9740586095651548/9936627821\"",
                 "",
                 ""
               ],
@@ -8464,7 +8464,7 @@
                 "",
                 "ControllerCenter",
                 "330",
-                "SceneWindowHeight()-350",
+                "SceneWindowHeight()-320",
                 ""
               ],
               "subInstructions": []
@@ -8572,7 +8572,7 @@
                 "",
                 "ControllerShootTongue",
                 "SceneWindowWidth()-304",
-                "SceneWindowHeight()-324",
+                "SceneWindowHeight()-294",
                 ""
               ],
               "subInstructions": []
@@ -12132,12 +12132,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ChangeWidth"
+                "value": "ChangeHeight"
               },
               "parameters": [
                 "LifeBar",
                 "=",
-                "SceneWindowWidth()"
+                "SceneWindowHeight()/2.8"
               ],
               "subInstructions": []
             },
@@ -12558,12 +12558,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ChangeWidth"
+                "value": "ChangeHeight"
               },
               "parameters": [
                 "LifeBar",
                 "=",
-                "SceneWindowWidth()"
+                "SceneWindowHeight()/2.8"
               ],
               "subInstructions": []
             },
@@ -12997,12 +12997,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ChangeWidth"
+                "value": "ChangeHeight"
               },
               "parameters": [
                 "LifeBar",
                 "=",
-                "SceneWindowWidth()"
+                "SceneWindowHeight()/2.8"
               ],
               "subInstructions": []
             },
@@ -13441,9 +13441,33 @@
               "parameters": [
                 "",
                 "LifeBarBg",
-                "SceneWindowWidth()/2",
-                "SceneWindowHeight()",
+                "ControllerShootTongue.X()",
+                "SceneWindowHeight()/2-134",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeHeight"
+              },
+              "parameters": [
+                "LifeBarBg",
+                "=",
+                "SceneWindowHeight()/2.8"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "LifeBarBg",
+                "=",
+                "101"
               ],
               "subInstructions": []
             },
@@ -13455,8 +13479,8 @@
               "parameters": [
                 "",
                 "LifeBar",
-                "SceneWindowWidth()/2",
-                "SceneWindowHeight()",
+                "ControllerShootTongue.X()",
+                "SceneWindowHeight()/2-134",
                 ""
               ],
               "subInstructions": []
@@ -13464,12 +13488,24 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ChangeWidth"
+                "value": "ChangeHeight"
               },
               "parameters": [
                 "LifeBar",
                 "=",
-                "SceneWindowWidth()"
+                "SceneWindowHeight()/2.8"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "LifeBar",
+                "=",
+                "100"
               ],
               "subInstructions": []
             },
@@ -13517,30 +13553,6 @@
                 "ControllerPosition",
                 "=",
                 "101"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeWidth"
-              },
-              "parameters": [
-                "LifeBarBg",
-                "=",
-                "SceneWindowWidth()"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "LifeBar",
-                "=",
-                "100"
               ],
               "subInstructions": []
             },
@@ -13705,12 +13717,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ChangeWidth"
+                "value": "ChangeHeight"
               },
               "parameters": [
                 "LifeBar",
                 "-",
-                "(2800+Variable(Timer))/2000"
+                "((2800+Variable(Timer))/1700)/6.4"
               ],
               "subInstructions": []
             }
@@ -13725,7 +13737,7 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ScaleWidth"
+                "value": "ScaleHeight"
               },
               "parameters": [
                 "LifeBar",
@@ -14152,12 +14164,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ScaleWidth"
+                "value": "ScaleHeight"
               },
               "parameters": [
                 "LifeBar",
                 ">",
-                "60"
+                ".5"
               ],
               "subInstructions": []
             }
@@ -14185,24 +14197,24 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ScaleWidth"
+                "value": "ScaleHeight"
               },
               "parameters": [
                 "LifeBar",
                 "<=",
-                "60"
+                ".5"
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "ScaleWidth"
+                "value": "ScaleHeight"
               },
               "parameters": [
                 "LifeBar",
                 ">=",
-                "30"
+                ".3"
               ],
               "subInstructions": []
             }
@@ -14230,12 +14242,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ScaleWidth"
+                "value": "ScaleHeight"
               },
               "parameters": [
                 "LifeBar",
                 "<",
-                "30"
+                ".3"
               ],
               "subInstructions": []
             }
@@ -14259,7 +14271,19 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ],
+              "subInstructions": []
+            }
+          ],
           "actions": [],
           "events": []
         }
